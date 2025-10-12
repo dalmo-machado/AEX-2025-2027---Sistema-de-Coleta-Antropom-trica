@@ -1,41 +1,42 @@
-# Next.js on Netlify Platform Starter
+# AEX 2025 - Sistema de Coleta Antropométrica
 
-[Live Demo](https://nextjs-platform-starter.netlify.app/)
+## Descrição
+Sistema web para coleta de dados antropométricos de crianças em escolas públicas de Ribeirão Preto.
+Projeto de extensão da USP envolvendo EEFERP, FMRP e FORP.
 
-A modern starter based on Next.js 14 (App Router), Tailwind, and [Netlify Core Primitives](https://docs.netlify.com/core/overview/#develop) (Edge Functions, Image CDN, Blob Store).
+## Funcionalidades
+- ✅ Dashboard com relatórios visuais
+- ✅ Formulário de avaliação antropométrica completo
+- ✅ Cálculos automáticos (IMC, Z-score, % Gordura)
+- ✅ Preview da planilha antes do download
+- ✅ Export para Excel organizado em colunas
+- ✅ Campos separados Ano/Série e Turma
+- ✅ Sistema de metas diárias
+- ✅ Interface responsiva
 
-In this site, Netlify Core Primitives are used both implictly for running Next.js features (e.g. Route Handlers, image optimization via `next/image`, and more) and also explicitly by the user code.
+## Como usar
+1. Abra o arquivo `index.html` em um navegador
+2. Clique em "Nova Avaliação" para adicionar dados
+3. Preencha todos os campos obrigatórios
+4. Clique em "Salvar Avaliação"
+5. Para exportar: "Baixar Planilha de Dados" → Preview → Confirmar
 
-Implicit usage means you're using any Next.js functionality and everything "just works" when deployed - all the plumbing is done for you. Explicit usage is framework-agnostic and typically provides more features than what Next.js exposes.
+## Arquivos inclusos
+- `index.html` - Página principal
+- `style.css` - Estilos e layout
+- `app.js` - Lógica da aplicação
+- `README.md` - Este arquivo
 
-## Deploying to Netlify
+## Tecnologias
+- HTML5, CSS3, JavaScript
+- SheetJS (XLSX) para exportação Excel
+- LocalStorage para armazenamento
 
-This site requires [Netlify Next Runtime v5](https://docs.netlify.com/frameworks/next-js/overview/) for full functionality. That version is now being gradually rolled out to all Netlify accounts.
+## Instalação em servidor web
+1. Descompacte todos os arquivos
+2. Faça upload para seu servidor web
+3. Acesse via navegador
 
-After deploying via the button below, please visit the **Site Overview** page for your new site to check whether it is already using the v5 runtime. If not, you'll be prompted to opt-in to to v5.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-platform-starter)
-
-## Developing Locally
-
-1. Clone this repository, then run `npm install` in its root directory.
-
-2. For the starter to have full functionality locally (e.g. edge functions, blob store), please ensure you have an up-to-date version of Netlify CLI. Run:
-
-```
-npm install netlify-cli@latest -g
-```
-
-3. Link your local repository to the deployed Netlify site. This will ensure you're using the same runtime version for both local development and your deployed site.
-
-```
-netlify link
-```
-
-4. Then, run the Next.js development server via Netlify CLI:
-
-```
-netlify dev
-```
-
-If your browser doesn't navigate to the site automatically, visit [localhost:8888](http://localhost:8888).
+## Suporte
+Prof. Dr. Dalmo Roberto Lopes Machado
+EEFERP-USP | Projeto AEX 2025
