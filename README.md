@@ -1,4 +1,4 @@
-# AEX 2025 - Sistema de Coleta Antropométrica
+# AEX 2025-2027 - Sistema de Coleta Antropométrica
 
 ## Descrição
 Sistema web para coleta de dados antropométricos de crianças em escolas públicas de Ribeirão Preto.
